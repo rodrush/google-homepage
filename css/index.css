@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/*links*/
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+/*list*/
+li{
+    list-style-type: none;
+}
+
+.content{
+    display: grid;
+}
+.nav1{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    margin-right: 2em;
+    margin-top: 1em;
+}
+.nav1 li{
+    padding-left: 0.6em;
+}
+.picha {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-top: 13%;
+    justify-items: center;
+    padding-left: 9em;
+    padding-bottom: 2em;
+}
+.picha img{
+    height:102px ;
+    width: 303px;
+}
+.search{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+.search2{
+    border-right: 1px solid rgba(141, 138, 138, 0);
+    background-color: white;
+    border-bottom-right-radius:0 ;
+    border-radius: 50%;
+}
+.search-input{
+    width: 589px;
+    height: 48px;
+    border-left: 1px solid rgba(158, 108, 108, 0);
+    border-bottom-left-radius:0 ;
+    border-top-left-radius: 0;
+    border-bottom-right-radius:25px ;
+    border-top-right-radius:25px ;
+    box-shadow: none;
+}
+.search-input :focus{
+    box-shadow: none;
+}
+.lucky{
+    grid-row: 4/5;
+    grid-column: 2/3;
+    padding-left: 9em;
+    padding-bottom: 2em;
+}
+.button{
+    justify-items: center;
+    background-color: rgb(206, 206, 206, 0.3);
+    color: rgb(0, 0, 0, 0.5);
+    border: none;
+    margin-left: 2em;
+}
+.button:hover{
+    background-color: inherit;
+    color: rgb(0, 0, 0, 0.5);
+}
+.option{
+    grid-row: 5/6;
+    grid-column: 2/3;
+    padding-left: 16em;
+    font-size: 14px;
+}
+.option a{
+    color: blue;
+}
+.location{
+    grid-row: 6/7;
+    grid-column: 1/4;
+    height: 44px;
+    margin-top: 6.3%;
+    padding-left: 3em;
+    margin-bottom: 0;
+    background-color: rgb(206, 206, 206, 0.3);
+    color: rgb(0, 0, 0, 0.7);
+    border-top: 1px solid rgb(104, 101, 101, 0.1);
+}
+.stuff{
+    grid-row: 7/8;
+    grid-column: 1/2;
+    height: 44px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-bottom: 0;
+    background-color: rgb(206, 206, 206, 0.3);
+    color: rgb(0, 0, 0, 0.7);
+    border-top: 1px solid rgb(104, 101, 101, 0.1);
+}
+.stuff li{
+    padding-left: 0.9em;
+    color: rgb(0, 0, 0, 0.5);
+}
+.stuff a,
+.other a{
+    color: rgb(0, 0, 0, 0.7);
+}
+.nothing{
+    grid-row: 7/8;
+    grid-column: 2/3;
+    background-color: rgb(206, 206, 206, 0.3);
+    border-top: 1px solid rgb(104, 101, 101, 0.1);
+}
+.other{
+    grid-row: 7/8;
+    grid-column: 3/4;
+    height: 44px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 0;
+    background-color: rgb(206, 206, 206, 0.3);
+    border-top: 1px solid rgb(104, 101, 101, 0.1);
+}
+.other li{
+    padding-left: 0.6em;
+}
